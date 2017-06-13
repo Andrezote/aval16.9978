@@ -4,7 +4,15 @@ public class Produto {
 	
 	private Long id;
 	private String nome;
-	private String quantidade;
+	private String Qualidade;
+	private int quantidade;
+	
+	public int getQuantidade() {
+		return quantidade;
+	}
+	public void setQuantidade(int quantidade) {
+		this.quantidade = quantidade;
+	}
 	public Long getId() {
 		return id;
 	}
@@ -17,11 +25,11 @@ public class Produto {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	public String getQuantidade() {
-		return quantidade;
+	public String getQualidade() {
+		return Qualidade;
 	}
-	public void setQuantidade(String quantidade) {
-		this.quantidade = quantidade;
+	public void setQualidade(String qualidade) {
+		Qualidade = qualidade;
 	}
 	
 
